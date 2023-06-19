@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+.auth-box {
+    min-width: 400px;
+    max-width: 550px;
+    border: 2px solid;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px;
+}
+
+.auth-card {
+    min-width: 400px;
+    max-width: 550px;
+    margin: auto;
+}
