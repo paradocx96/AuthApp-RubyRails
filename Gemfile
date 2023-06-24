@@ -17,6 +17,7 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  gem 'dotenv-rails', groups: [:development, :test]
 end
 
 group :development do
